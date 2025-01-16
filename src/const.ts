@@ -84,6 +84,7 @@ const LABEL_SHORTCUT = 'Shortcuts...';
 const MEDIA_INFO = [
   { attr: 'media_title' },
   { attr: 'media_artist' },
+  { attr: 'media_album_name', prefix: 'Album: ' },
   { attr: 'media_series_title' },
   { attr: 'media_season', prefix: 'S' },
   { attr: 'media_episode', prefix: 'E' },
